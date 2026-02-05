@@ -9,7 +9,7 @@ const quickLinks = [
 ];
 
 const socialLinks = [
-    { label: "GitHub", href: "https://github.com", icon: Github },
+    { label: "GitHub", href: "https://github.com/sahiljammu24/virtual-Reality", icon: Github },
 ];
 
 interface FooterSectionProps {
