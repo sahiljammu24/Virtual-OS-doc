@@ -130,7 +130,7 @@ export function HeroSection({ onNavigate }: HeroSectionProps) {
                 size="lg"
                 variant="outline"
                 className="gap-2"
-                onClick={() => window.open("https://github.com", "_blank")}
+                onClick={() => window.open("https://github.com/sahiljammu24/virtual-Reality", "_blank")}
               >
                 <Github className="w-4 h-4" />
                 View on GitHub
