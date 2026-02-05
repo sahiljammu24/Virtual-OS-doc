@@ -45,7 +45,7 @@ export function InstallationSection() {
           <div>
             <h4 className="font-medium mb-2">1. Clone the Repository</h4>
             <CodeBlock
-              code={`git clone https://github.com/yourusername/virtual-os.git
+              code={`git clone https://github.com/sahiljammu24/virtual-Reality.git
 cd virtual-os`}
               language="bash"
             />
