@@ -46,11 +46,10 @@ export function RoadmapSection() {
             {/* Status badge */}
             <div className="absolute top-4 right-4">
               <span
-                className={`px-2 py-1 rounded-full text-xs font-medium ${
-                  item.status === "planned"
+                className={`px-2 py-1 rounded-full text-xs font-medium ${item.status === "planned"
                     ? "bg-primary/10 text-primary"
                     : "bg-orange-500/10 text-orange-500"
-                }`}
+                  }`}
               >
                 {item.status === "planned" ? "Planned" : "Exploring"}
               </span>
@@ -73,7 +72,7 @@ export function RoadmapSection() {
         <p className="text-muted-foreground">
           Have suggestions or want to contribute?{" "}
           <a
-            href="https://github.com"
+            href="https://github.com/sahiljammu24/virtual-Reality"
             target="_blank"
             rel="noopener noreferrer"
             className="text-primary hover:underline font-medium"
